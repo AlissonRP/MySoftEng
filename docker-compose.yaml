@@ -1,0 +1,11 @@
+version: '3.6'
+
+services:
+  api:
+    build: .
+    volumes:
+      - ./aula:/aula
+      - ./referemcial:/referemcial
+    ports:
+      - 8100:8100
+      - 8080:8090
