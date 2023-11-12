@@ -1,6 +1,6 @@
 # BackEnd
 * Client: todo dispositivo capaz de fazer uma requisição HTTP
-
+* *endpoint*: endereço
 
 * `docker compose up -d`
 
