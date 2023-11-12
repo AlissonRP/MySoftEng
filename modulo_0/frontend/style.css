@@ -5,6 +5,12 @@ header {
     width: 100%;
 }
 
+
+li {
+    list-style: none;
+}
+
+
 header nav ul {
     display: flex;
     justify-content: center;
@@ -15,10 +21,12 @@ header nav ul li a {
     margin: 0 10rem;
     color: aliceblue;
 
+
 }
 
 header nav ul li a:hover {
     border-bottom: 1px solid rgb(145, 129, 172);
+    
 }
 
 .products {
@@ -43,6 +51,7 @@ header nav ul li a:hover {
 
 img {
     width: 100%;
+    height: 90%;
 }
 
 
@@ -77,4 +86,11 @@ img {
     color: rgb(31, 12, 53);
 
 
+}
+
+footer {
+    text-align: center;
+    color: rgb(225, 223, 228);
+    background-color: rgb(20, 8, 31);
+    padding: 3rem 0;
 }
