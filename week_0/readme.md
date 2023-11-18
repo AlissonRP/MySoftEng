@@ -5,3 +5,4 @@
 * Todo mundo que sai na frente vai nadar sozinho por um período e **não para sempre**
 * Quando queremos mudar algo, não olhamos onde as pessoas estão e sim para onde estão indo. 
 * O mercado financeiro brasileiro é ágil?
+
