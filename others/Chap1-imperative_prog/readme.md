@@ -10,3 +10,12 @@
 * Degree of abstraction:
 
 ``Declarative <<=====|==================>> Imperative``
+
+
+## Imperative Scala Syntax
+* Tudo é uma expressão que posui um retorno tipado
+* O tipo pode ser declarado na variável ou não.
+* `val` para valores que não se alteram e `var` para variáveis
+* def f() = expression
+* braces são opcional em loops
+* Arrays utilizam `[]` para tipar e `()` para indexar (são mutaveis). O parenteses na verdade é um `syntatic sugar` para um `apply`. `Any` é  o tipo que pode ser "qualquer coisa"
