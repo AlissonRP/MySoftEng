@@ -18,4 +18,7 @@
 * `val` para valores que não se alteram e `var` para variáveis
 * def f() = expression
 * braces são opcional em loops
-* Arrays utilizam `[]` para tipar e `()` para indexar (são mutaveis). O parenteses na verdade é um `syntatic sugar` para um `apply`. `Any` é  o tipo que pode ser "qualquer coisa"
+* Arrays utilizam `[]` para tipar e `()` para indexar (são mutaveis). O parenteses na verdade é um `syntatic sugar` para um `apply`. `Any` é  o tipo que pode ser "qualquer coisa" (chamada de função na variavel)
+* Todas listas tem um `head` que o primeiro elemento e `tail` que é lista restante (útil para fazer um "append" em uma lista)
+* Se você vai utilizar uma estrutura mutável é recomendado  deixar claro no código
+* `tuples` mantém type signature na declaração. `'1 -> 'a'` é equivalente a `(1, 'a')`
