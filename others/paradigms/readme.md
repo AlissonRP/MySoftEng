@@ -1,0 +1,1 @@
+* Anotações do Curso de Paradigmas de Programação, utilizando a linguagem Scala.
