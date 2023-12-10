@@ -22,3 +22,10 @@
 * Todas listas tem um `head` que o primeiro elemento e `tail` que é lista restante (útil para fazer um "append" em uma lista)
 * Se você vai utilizar uma estrutura mutável é recomendado  deixar claro no código
 * `tuples` mantém type signature na declaração. `'1 -> 'a'` é equivalente a `(1, 'a')`
+
+## OO in Scala
+* colocar `val` deixa acessível parametros do construtor
+* variáveis da classe são por default públicas
+* `companion objects`: um objeto que tem o mesmo nome da classe
+* **existe uma diferença entre *structural equality* e *referential equality*** (que é definido pelo método `equals`)
+* 

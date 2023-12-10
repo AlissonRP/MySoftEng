@@ -20,3 +20,14 @@ while (i<3){
 }
 
 
+
+
+class Dog(name:String):
+
+  def listen(word:String):Unit = 
+    if (word == name) then
+      println(s"$name looks at you")
+      
+end Dog
+
+
