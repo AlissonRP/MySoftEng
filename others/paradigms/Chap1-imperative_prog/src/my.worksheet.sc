@@ -1,4 +1,7 @@
-1 + 1
+1 + 3
+
+
+
 
 if (3>2) 
     "print something"
@@ -30,4 +33,13 @@ class Dog(name:String):
       
 end Dog
 
+
+object HelloWorld {
+    def hello(y: String = "Hello, World!") = {
+        println(y)
+    }
+}
+
+
+"crazy" * 3
 
